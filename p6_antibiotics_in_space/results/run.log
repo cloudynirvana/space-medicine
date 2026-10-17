@@ -1,0 +1,55 @@
+6 Mus musculus kidney studies: OSD-102, OSD-163, OSD-253, OSD-457, OSD-462, OSD-513
+  OSD-102: 24808 genes, 21 changed; contrast 'Space Flight' vs 'Ground Control'
+  OSD-163: 33066 genes, 1 changed; contrast 'Space Flight' vs 'Ground Control'
+  OSD-253: skipped (504 Server Error: Gateway Time-out for url: https://visualization.osdr.nasa.gov/biodata/api/v2/query/data/?id.accession=OSD-253&file.datatype=differential%20expression)
+  OSD-457: skipped (422 Client Error: UNPROCESSABLE ENTITY for url: https://visualization.osdr.nasa.gov/biodata/api/v2/query/data/?id.accession=OSD-457&file.datatype=differential%20expression)
+  OSD-462: skipped (422 Client Error: UNPROCESSABLE ENTITY for url: https://visualization.osdr.nasa.gov/biodata/api/v2/query/data/?id.accession=OSD-462&file.datatype=differential%20expression)
+  OSD-513: 24900 genes, 808 changed; contrast 'Space Flight' vs 'Ground Control'
+kidney: 3 studies pooled
+1 Mus musculus colon studies: OSD-667
+  OSD-667: 29749 genes, 8 changed; contrast 'p21-null & Space Flight' vs 'p21-null & Ground Control'
+                       antibiotic     gene   organ  studies  studies_same_direction  mean_log2fc       fdr                    verdict
+0                     Amoxicillin  Slc22a6  kidney      3.0                     2.0    -0.001669  0.910617            no clear change
+1                     Amoxicillin  Slc22a8  kidney      3.0                     2.0    -0.139934  0.601173            no clear change
+2         Amoxicillin-clavulanate  Slc22a6  kidney      3.0                     2.0    -0.001669  0.910617            no clear change
+3         Amoxicillin-clavulanate  Slc22a8  kidney      3.0                     2.0    -0.139934  0.601173            no clear change
+4                    Penicillin G  Slc22a8  kidney      3.0                     2.0    -0.139934  0.601173            no clear change
+5                    Penicillin G  Slc22a6  kidney      3.0                     2.0    -0.001669  0.910617            no clear change
+6         Piperacillin-tazobactam  Slc22a8  kidney      3.0                     2.0    -0.139934  0.601173            no clear change
+7         Piperacillin-tazobactam  Slc22a6  kidney      3.0                     2.0    -0.001669  0.910617            no clear change
+8                       Cefalexin  Slc22a8  kidney      3.0                     2.0    -0.139934  0.601173            no clear change
+9                       Cefalexin  Slc15a2  kidney      3.0                     2.0    -0.005311  0.986915            no clear change
+10                      Cefazolin  Slc22a8  kidney      3.0                     2.0    -0.139934  0.601173            no clear change
+11                    Ceftriaxone             none      NaN                     NaN          NaN       NaN  no clearance gene to test
+12                      Meropenem  Slc22a8  kidney      3.0                     2.0    -0.139934  0.601173            no clear change
+13                     Vancomycin             none      NaN                     NaN          NaN       NaN  no clearance gene to test
+14                     Gentamicin     Lrp2  kidney      3.0                     2.0    -0.412040  0.037518   leans lower (not robust)
+15                       Amikacin     Lrp2  kidney      3.0                     2.0    -0.412040  0.037518   leans lower (not robust)
+16                   Azithromycin   Abcb1a   liver      7.0                     4.0     0.003457  0.637038            no clear change
+17                   Azithromycin   Abcb1b   liver      7.0                     5.0    -0.474716  0.138356            no clear change
+18                 Clarithromycin  Cyp3a11   liver      7.0                     6.0     0.377869  0.010465            higher in space
+19                 Clarithromycin   Abcb1a   liver      7.0                     4.0     0.003457  0.637038            no clear change
+20                 Clarithromycin   Abcb1b   liver      7.0                     5.0    -0.474716  0.138356            no clear change
+21                   Erythromycin  Cyp3a11   liver      7.0                     6.0     0.377869  0.010465            higher in space
+22                   Erythromycin   Abcb1a   liver      7.0                     4.0     0.003457  0.637038            no clear change
+23                   Erythromycin   Abcb1b   liver      7.0                     5.0    -0.474716  0.138356            no clear change
+24                    Clindamycin  Cyp3a11   liver      7.0                     6.0     0.377869  0.010465            higher in space
+25                    Doxycycline             none      NaN                     NaN          NaN       NaN  no clearance gene to test
+26                    Minocycline             none      NaN                     NaN          NaN       NaN  no clearance gene to test
+27                    Tigecycline             none      NaN                     NaN          NaN       NaN  no clearance gene to test
+28                  Ciprofloxacin  Slc22a8  kidney      3.0                     2.0    -0.139934  0.601173            no clear change
+29                   Levofloxacin  Slc22a2  kidney      3.0                     2.0     0.001576  0.988055            no clear change
+30                   Levofloxacin  Slc47a1  kidney      3.0                     2.0    -0.153351  0.371879            no clear change
+31                   Moxifloxacin   Ugt1a1   liver      7.0                     4.0     0.002667  0.965010            no clear change
+32  Trimethoprim-sulfamethoxazole  Slc22a2  kidney      3.0                     2.0     0.001576  0.988055            no clear change
+33  Trimethoprim-sulfamethoxazole  Slc47a1  kidney      3.0                     2.0    -0.153351  0.371879            no clear change
+34                 Nitrofurantoin    Abcg2  kidney      3.0                     2.0    -0.027128  0.990559            no clear change
+35                  Metronidazole   Cyp2a5   liver      7.0                     4.0     0.019176  0.667798            no clear change
+36                      Linezolid             none      NaN                     NaN          NaN       NaN  no clearance gene to test
+37                     Rifampicin  Slco1b2   liver      7.0                     5.0     0.028783  0.858996            no clear change
+38                      Isoniazid     Nat1   liver      7.0                     4.0     0.008418  0.984750            no clear change
+39                     Daptomycin             none      NaN                     NaN          NaN       NaN  no clearance gene to test
+40                       Colistin             none      NaN                     NaN          NaN       NaN  no clearance gene to test
+41                     Fosfomycin             none      NaN                     NaN          NaN       NaN  no clearance gene to test
+42                Chloramphenicol             none      NaN                     NaN          NaN       NaN  no clearance gene to test
+43                    Fidaxomicin             none      NaN                     NaN          NaN       NaN  no clearance gene to test

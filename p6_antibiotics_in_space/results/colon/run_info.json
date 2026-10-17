@@ -1,0 +1,17 @@
+{
+  "organism": "Mus musculus",
+  "material": "colon",
+  "studies_found": [
+    "OSD-667"
+  ],
+  "studies_analysed": [
+    "OSD-667"
+  ],
+  "contrasts": {
+    "OSD-667": "p21-null & Space Flight vs p21-null & Ground Control"
+  },
+  "thresholds": {
+    "adjusted_p": 0.05,
+    "min_abs_log2fc": 1.0
+  }
+}

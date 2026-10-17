@@ -1,0 +1,27 @@
+symbol,group,studies_measured,studies_up,studies_down,median_log2fc,direction_agreement
+AT2G05070,Light / photosynthesis,10,5,0,1.0222488254429734,0.7
+AT3G12580,Heat-shock / protein folding,10,4,1,0.5286907973323065,0.6
+HSP17.6II,Heat-shock / protein folding,9,4,0,2.66533350501988,1.0
+AT2G41100,Touch / gravity sensing,10,4,0,0.8936876760939055,0.7
+AT1G74310,Heat-shock / protein folding,10,4,0,0.733581863066894,0.6
+AT5G57560,Cell wall remodelling,10,3,2,0.6685393820132345,0.7
+AT5G52640,Heat-shock / protein folding,10,3,1,0.465001335453209,0.7
+RBCS1A,Light / photosynthesis,10,3,0,0.8883316687779466,0.7
+CAT1,Oxidative stress,10,3,0,0.41615686382380546,0.8
+AT1G75040,Pathogen defence,5,2,1,1.32035031286106,0.6
+AT2G14610,Pathogen defence,7,2,0,1.18078802939882,0.7142857142857143
+AT1G29920,Light / photosynthesis,10,2,0,0.18651106253157002,0.6
+AT4G30270,Cell wall remodelling,10,1,2,0.05190248584117815,0.6
+AT2G26150,Heat-shock / protein folding,10,1,0,0.9268008874381299,0.7
+AT5G47910,Oxidative stress,10,1,0,0.368799556471629,0.9
+AT4G27280,Touch / gravity sensing,10,1,0,0.3623103186125945,0.7
+AT5G37770,Touch / gravity sensing,10,1,0,0.007886783623555008,0.5
+AT3G57260,Pathogen defence,8,1,0,0.0,0.625
+AT1G08830,Oxidative stress,10,0,1,-0.249168517530849,0.7
+XTH23,Cell wall remodelling,1,0,1,-1.68676842772944,1.0
+AT2G36400,Touch / gravity sensing,10,0,0,0.162973859745825,0.8
+HSP70,Heat-shock / protein folding,10,0,0,0.1330646777789405,0.7
+APX1,Oxidative stress,1,0,0,0.0796617872544264,1.0
+AT1G07890,Oxidative stress,9,0,0,-0.0041055656911109,0.5555555555555556
+AT2G28190,Oxidative stress,10,0,0,-0.0378761737677578,0.6
+AT4G25810,Cell wall remodelling,9,0,0,-0.0773985190782964,0.5555555555555556

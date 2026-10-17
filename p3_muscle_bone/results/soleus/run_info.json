@@ -1,0 +1,22 @@
+{
+  "organism": "Mus musculus",
+  "material": "soleus",
+  "studies_found": [
+    "OSD-274",
+    "OSD-295",
+    "OSD-714",
+    "OSD-935",
+    "OSD-949",
+    "OSD-955"
+  ],
+  "studies_analysed": [
+    "OSD-714"
+  ],
+  "contrasts": {
+    "OSD-714": "Mouse Habitat Unit 1 (MHU-1) & Space Flight & uG vs Mouse Habitat Unit 1 (MHU-1) & Ground Control & 1G on Earth"
+  },
+  "thresholds": {
+    "adjusted_p": 0.05,
+    "min_abs_log2fc": 1.0
+  }
+}

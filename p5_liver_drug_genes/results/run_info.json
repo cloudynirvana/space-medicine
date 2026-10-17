@@ -1,0 +1,40 @@
+{
+  "organism": "Mus musculus",
+  "material": "liver",
+  "studies_found": [
+    "OSD-47",
+    "OSD-48",
+    "OSD-49",
+    "OSD-137",
+    "OSD-164",
+    "OSD-168",
+    "OSD-173",
+    "OSD-242",
+    "OSD-245",
+    "OSD-273",
+    "OSD-457",
+    "OSD-686"
+  ],
+  "studies_analysed": [
+    "OSD-47",
+    "OSD-48",
+    "OSD-137",
+    "OSD-173",
+    "OSD-242",
+    "OSD-245",
+    "OSD-686"
+  ],
+  "contrasts": {
+    "OSD-47": "Space Flight vs Ground Control",
+    "OSD-48": "Space Flight & Carcass vs Ground Control & Carcass",
+    "OSD-137": "Space Flight vs Ground Control",
+    "OSD-173": "Space Flight vs Ground Control",
+    "OSD-242": "Space Flight vs Ground Control",
+    "OSD-245": "Space Flight & ~60 day & On ISS & Carcass vs Ground Control & ~60 day & On Earth & Carcass",
+    "OSD-686": "Space Flight & uG vs Ground Control & 1G on Earth"
+  },
+  "thresholds": {
+    "adjusted_p": 0.05,
+    "min_abs_log2fc": 1.0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "organism": "Mus musculus",
+  "material": "gastrocnemius",
+  "studies_found": [
+    "OSD-401",
+    "OSD-876",
+    "OSD-880"
+  ],
+  "studies_analysed": [],
+  "contrasts": {},
+  "thresholds": {
+    "adjusted_p": 0.05,
+    "min_abs_log2fc": 1.0
+  }
+}

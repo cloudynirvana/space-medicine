@@ -1,0 +1,2 @@
+mouse_gene,human_gene,chembl_target,drug,drug_chembl_id,max_phase,action,approved_use_note
+Ctsk,CTSK,CHEMBL268,ODANACATIB,CHEMBL481611,3.0,inhibitor,phase 3 (never approved)

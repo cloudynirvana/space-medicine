@@ -1,0 +1,6 @@
+symbol,group,studies_measured,studies_up,studies_down,median_log2fc,direction_agreement
+Slc15a1,Absorption and efflux,1,0,0,0.233599883439367,1.0
+Abcg2,Absorption and efflux,1,0,0,0.146605687889342,1.0
+Cyp3a11,Absorption and efflux,1,0,0,-0.204459717625577,1.0
+Abcb1a,Absorption and efflux,1,0,0,-0.205564753498497,1.0
+Abcb1b,Absorption and efflux,1,0,0,-0.46123333772586,1.0

@@ -1,0 +1,33 @@
+antibiotic,class,how_it_works,typical_use,main_way_out_of_body,clearance_genes_human,clearance_genes_mouse,organ,interaction_note
+Amoxicillin,Penicillin (beta-lactam),Blocks bacterial cell-wall building; kills bacteria,"Ear, throat, chest, dental infections",Urine (kidney tubule secretion),SLC22A6 (OAT1); SLC22A8 (OAT3),Slc22a6; Slc22a8,kidney,
+Amoxicillin-clavulanate,Penicillin + beta-lactamase blocker,Cell-wall blocker protected from bacterial enzymes,"Bites, sinus, skin infections",Urine (kidney tubule secretion),SLC22A6 (OAT1); SLC22A8 (OAT3),Slc22a6; Slc22a8,kidney,
+Penicillin G,Penicillin (beta-lactam),Blocks cell-wall building,"Strep throat, syphilis",Urine (kidney tubule secretion),SLC22A8 (OAT3); SLC22A6 (OAT1),Slc22a8; Slc22a6,kidney,
+Piperacillin-tazobactam,Penicillin + beta-lactamase blocker,Broad cell-wall blocker,Severe hospital infections,Urine (kidney tubule secretion),SLC22A8 (OAT3); SLC22A6 (OAT1),Slc22a8; Slc22a6,kidney,
+Cefalexin,Cephalosporin (1st gen),Blocks cell-wall building,"Skin, urinary infections",Urine (filtration and secretion),SLC22A8 (OAT3); SLC15A2 (PEPT2),Slc22a8; Slc15a2,kidney,
+Cefazolin,Cephalosporin (1st gen),Blocks cell-wall building,Surgical prophylaxis,Urine (filtration and secretion),SLC22A8 (OAT3),Slc22a8,kidney,
+Ceftriaxone,Cephalosporin (3rd gen),Blocks cell-wall building,"Pneumonia, meningitis, gonorrhoea",Urine and bile (about half each),none well defined,,none,
+Meropenem,Carbapenem,Very broad cell-wall blocker,Severe resistant infections,Urine (filtration and secretion),SLC22A8 (OAT3),Slc22a8,kidney,
+Vancomycin,Glycopeptide,Blocks cell-wall building in Gram-positive bacteria,MRSA,Urine (filtration only),none (filtration),,none,Can damage the kidney
+Gentamicin,Aminoglycoside,Blocks bacterial protein-making (30S),Severe Gram-negative infections,Urine (filtration only),LRP2 (megalin) takes it into kidney cells,Lrp2,kidney,Kidney uptake through megalin causes kidney damage
+Amikacin,Aminoglycoside,Blocks bacterial protein-making (30S),Resistant Gram-negative infections,Urine (filtration only),LRP2 (megalin) takes it into kidney cells,Lrp2,kidney,Kidney uptake through megalin causes kidney damage
+Azithromycin,Macrolide,Blocks bacterial protein-making (50S),"Chest infections, chlamydia",Bile and faeces mostly unchanged,ABCB1 (P-glycoprotein),Abcb1a; Abcb1b,liver,
+Clarithromycin,Macrolide,Blocks bacterial protein-making (50S),"Chest infections, H. pylori",Liver (CYP3A4) and urine,CYP3A4; ABCB1,Cyp3a11; Abcb1a; Abcb1b,liver,Strongly blocks CYP3A4: raises levels of many other drugs
+Erythromycin,Macrolide,Blocks bacterial protein-making (50S),Chest and skin infections,Liver (CYP3A4) and bile,CYP3A4; ABCB1,Cyp3a11; Abcb1a; Abcb1b,liver,Blocks CYP3A4
+Clindamycin,Lincosamide,Blocks bacterial protein-making (50S),"Bone, skin, dental infections",Liver (CYP3A4),CYP3A4,Cyp3a11,liver,
+Doxycycline,Tetracycline,Blocks bacterial protein-making (30S),"Chest infections, Lyme disease, malaria prevention",Gut and bile; little liver metabolism,none well defined,,none,
+Minocycline,Tetracycline,Blocks bacterial protein-making (30S),"Acne, skin infections",Liver and bile,none well defined,,none,
+Tigecycline,Glycylcycline,Blocks bacterial protein-making (30S),Complicated resistant infections,Bile and faeces,none well defined,,none,
+Ciprofloxacin,Fluoroquinolone,Blocks bacterial DNA copying (gyrase),"Urinary, gut infections, anthrax",Urine (filtration and secretion),SLC22A8 (OAT3),Slc22a8,kidney,Strongly blocks CYP1A2: raises caffeine and theophylline levels
+Levofloxacin,Fluoroquinolone,Blocks bacterial DNA copying (gyrase),"Pneumonia, urinary infections",Urine mostly unchanged,SLC22A2 (OCT2); SLC47A1 (MATE1),Slc22a2; Slc47a1,kidney,
+Moxifloxacin,Fluoroquinolone,Blocks bacterial DNA copying (gyrase),Pneumonia,Liver (glucuronidation and sulfation),UGT1A1,Ugt1a1,liver,
+Trimethoprim-sulfamethoxazole,Folate blockers,Starves bacteria of folate,"Urinary infections, PCP pneumonia",Urine; sulfamethoxazole partly via liver (CYP2C9 and acetylation),SLC22A2 (OCT2); SLC47A1 (MATE1) for trimethoprim,Slc22a2; Slc47a1,kidney,
+Nitrofurantoin,Nitrofuran,Damages bacterial DNA and proteins,Bladder infections,Urine,ABCG2 (BCRP),Abcg2,kidney,
+Metronidazole,Nitroimidazole,Damages DNA of anaerobic bacteria,"Anaerobic, gut and dental infections; C. difficile",Liver (CYP2A6),CYP2A6,Cyp2a5,liver,
+Linezolid,Oxazolidinone,Blocks bacterial protein-making (50S),"MRSA, VRE",Non-enzyme oxidation; urine,none well defined,,none,
+Rifampicin,Rifamycin,Blocks bacterial RNA-making,"Tuberculosis, staph infections",Liver into bile,SLCO1B1 (OATP1B1) liver uptake,Slco1b2,liver,Strongly switches on CYP3A4 and other liver enzymes
+Isoniazid,Anti-TB,Blocks the building of the TB cell wall,Tuberculosis,Liver (acetylation by NAT2),NAT2,Nat1,liver,Mouse Nat1 is the counterpart of human NAT2
+Daptomycin,Lipopeptide,Punches holes in bacterial membranes,"MRSA, VRE",Urine (filtration),none (filtration),,none,
+Colistin,Polymyxin,Breaks bacterial outer membrane,Last-resort Gram-negative infections,Urine,none well defined,,none,Can damage the kidney
+Fosfomycin,Phosphonic acid,Blocks an early cell-wall step,Bladder infections,Urine (filtration),none (filtration),,none,
+Chloramphenicol,Amphenicol,Blocks bacterial protein-making (50S),"Eye infections, typhoid (rarely now)",Liver (glucuronidation),UGT2B7,,none,No clear mouse counterpart of UGT2B7
+Fidaxomicin,Macrocycle,Blocks bacterial RNA-making,C. difficile,Stays in the gut,none,,none,

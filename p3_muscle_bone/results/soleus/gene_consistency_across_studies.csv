@@ -1,0 +1,38 @@
+symbol,group,studies_measured,studies_up,studies_down,median_log2fc,direction_agreement
+Scn5a,Nerve-muscle junction,1,1,0,4.9981394434365,1.0
+Myog,Muscle building,1,1,0,2.88506361963461,1.0
+Runx1,Nerve-muscle junction,1,1,0,2.3527311024394,1.0
+Cdkn1a,Muscle breakdown,1,1,0,1.83221851186685,1.0
+Myod1,Muscle building,1,1,0,1.52744281162623,1.0
+Myh1,Muscle fibre type,1,1,0,1.26208135085161,1.0
+Trim63,Muscle breakdown,1,1,0,1.2002716854646,1.0
+Ncam1,Nerve-muscle junction,1,0,1,-1.22531180289998,1.0
+Myh7,Muscle fibre type,1,0,1,-1.24836983453658,1.0
+Myh2,Muscle fibre type,1,0,1,-1.2540561574842,1.0
+Ctsk,Bone breakdown,1,0,1,-1.51602847375124,1.0
+Tnfrsf11b,Bone building,1,0,1,-1.53007878069239,1.0
+Klf15,Muscle breakdown,1,0,1,-2.05598137702563,1.0
+Acp5,Bone breakdown,1,0,1,-2.28754449996046,1.0
+Fbxo32,Muscle breakdown,1,0,1,-2.36487548592902,1.0
+Chrng,Nerve-muscle junction,1,0,0,3.52761061016238,1.0
+Gdf15,Nerve-muscle junction,1,0,0,1.40834325275497,1.0
+Myh4,Muscle fibre type,1,0,0,1.401766921339,1.0
+Mmp9,Bone breakdown,1,0,0,1.12425032438776,1.0
+Musk,Nerve-muscle junction,1,0,0,0.793409676342341,1.0
+Mstn,Muscle breakdown,1,0,0,0.558863691717325,1.0
+Igf1,Muscle building,1,0,0,0.378594558432842,1.0
+Gadd45a,Muscle breakdown,1,0,0,0.346394460713479,1.0
+Nfatc1,Bone breakdown,1,0,0,0.20026881240176,1.0
+Mtor,Muscle building,1,0,0,0.157591906809447,1.0
+Runx2,Bone building,1,0,0,-0.050252119112308,1.0
+Chrnd,Nerve-muscle junction,1,0,0,-0.0742111961823635,1.0
+Tnni2,Muscle fibre type,1,0,0,-0.111042105877717,1.0
+Ppargc1a,Muscle building,1,0,0,-0.181137566297183,1.0
+Tnni1,Muscle fibre type,1,0,0,-0.474156288768056,1.0
+Foxo3,Muscle breakdown,1,0,0,-0.532360354660219,1.0
+Spp1,Bone building,1,0,0,-0.567901368229698,1.0
+Chrna1,Nerve-muscle junction,1,0,0,-0.71456944116397,1.0
+Col1a1,Bone building,1,0,0,-0.875514075143092,1.0
+Foxo1,Muscle breakdown,1,0,0,-0.94512671083239,1.0
+Ddit4,Muscle breakdown,1,0,0,-1.00484795742787,1.0
+Alpl,Bone building,1,0,0,-1.04994856049041,1.0

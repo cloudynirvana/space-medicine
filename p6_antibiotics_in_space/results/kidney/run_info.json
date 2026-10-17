@@ -1,0 +1,26 @@
+{
+  "organism": "Mus musculus",
+  "material": "kidney",
+  "studies_found": [
+    "OSD-102",
+    "OSD-163",
+    "OSD-253",
+    "OSD-457",
+    "OSD-462",
+    "OSD-513"
+  ],
+  "studies_analysed": [
+    "OSD-102",
+    "OSD-163",
+    "OSD-513"
+  ],
+  "contrasts": {
+    "OSD-102": "Space Flight vs Ground Control",
+    "OSD-163": "Space Flight vs Ground Control",
+    "OSD-513": "Space Flight vs Ground Control"
+  },
+  "thresholds": {
+    "adjusted_p": 0.05,
+    "min_abs_log2fc": 1.0
+  }
+}

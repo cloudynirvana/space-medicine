@@ -1,0 +1,40 @@
+12 Mus musculus liver studies: OSD-47, OSD-48, OSD-49, OSD-137, OSD-164, OSD-168, OSD-173, OSD-242, OSD-245, OSD-273, OSD-457, OSD-686
+  OSD-47: 21087 genes, 15 changed; contrast 'Space Flight' vs 'Ground Control'
+  OSD-48: 22885 genes, 215 changed; contrast 'Space Flight & Carcass' vs 'Ground Control & Carcass'
+  OSD-49: skipped (No spaceflight vs ground contrast. Found: [('25 minute & Dry Ice & ~365 day', 'within 5 minute & Liquid Nitrogen & 3 day'), ('25 minute & Dry Ice & ~365 day', 'within 5 minute & Liquid Nitrogen & ~365 day'), ('within 5 minute & Liquid Nitrogen & 3 day', 'within 5 minute & Liquid Nitrogen & ~365 day'), ('within 5 minute & Liquid Nitrogen & 3 day', '25 minute & Dry Ice & ~365 day'), ('within 5 minute & Liquid Nitrogen & ~365 day', '25 minute & Dry Ice & ~365 day'), ('within 5 minute & Liquid Nitrogen & ~365 day', 'within 5 minute & Liquid Nitrogen & 3 day')])
+  OSD-137: 22961 genes, 0 changed; contrast 'Space Flight' vs 'Ground Control'
+  OSD-164: skipped (422 Client Error: UNPROCESSABLE ENTITY for url: https://visualization.osdr.nasa.gov/biodata/api/v2/query/data/?id.accession=OSD-164&file.datatype=differential%20expression)
+  OSD-168: skipped (504 Server Error: Gateway Time-out for url: https://visualization.osdr.nasa.gov/biodata/api/v2/query/data/?id.accession=OSD-168&file.datatype=differential%20expression)
+  OSD-173: 19005 genes, 528 changed; contrast 'Space Flight' vs 'Ground Control'
+  OSD-242: 23498 genes, 323 changed; contrast 'Space Flight' vs 'Ground Control'
+  OSD-245: 27311 genes, 571 changed; contrast 'Space Flight & ~60 day & On ISS & Carcass' vs 'Ground Control & ~60 day & On Earth & Carcass'
+  OSD-273: skipped (504 Server Error: Gateway Time-out for url: https://visualization.osdr.nasa.gov/biodata/api/v2/query/data/?id.accession=OSD-273&file.datatype=differential%20expression)
+  OSD-457: skipped (422 Client Error: UNPROCESSABLE ENTITY for url: https://visualization.osdr.nasa.gov/biodata/api/v2/query/data/?id.accession=OSD-457&file.datatype=differential%20expression)
+  OSD-686: 16655 genes, 287 changed; contrast 'Space Flight & uG' vs 'Ground Control & 1G on Earth'
+                           group  studies_measured  studies_up  studies_down  median_log2fc  direction_agreement
+symbol                                                                                                          
+Cyp4a10         Phase I (CYP450)                 7           3             0       0.520342             0.714286
+Cyp4a14         Phase I (CYP450)                 7           3             0       0.431922             0.571429
+Cyp2c54         Phase I (CYP450)                 7           2             0       0.442778             0.571429
+Cyp2c39         Phase I (CYP450)                 7           2             0       0.379166             0.571429
+Cyp2c38         Phase I (CYP450)                 7           2             0       0.105954             0.714286
+Abcb1a              Transporters                 7           1             1       0.115792             0.571429
+Por             Phase I (CYP450)                 7           1             1       0.057786             0.571429
+Cyp2b10         Phase I (CYP450)                 7           1             0       0.770330             0.714286
+Sult2a1   Phase II (conjugation)                 6           1             0       0.601265             0.500000
+Gsta1     Phase II (conjugation)                 7           1             0       0.219413             0.571429
+Cyp2c55         Phase I (CYP450)                 7           1             0       0.136031             0.571429
+Ppara                 Regulators                 7           1             0       0.031289             0.571429
+Cyp2e1          Phase I (CYP450)                 7           1             0      -0.084487             0.571429
+Cyp2c37         Phase I (CYP450)                 7           1             0      -0.111041             0.571429
+Cyp7a1          Phase I (CYP450)                 7           0             2      -0.127378             0.714286
+Cyp1a2          Phase I (CYP450)                 7           0             2      -0.197844             0.857143
+Gsta2     Phase II (conjugation)                 7           0             1       0.440951             0.857143
+Gstp1     Phase II (conjugation)                 7           0             1      -0.040736             0.714286
+Cyp3a44         Phase I (CYP450)                 7           0             1      -0.086445             0.571429
+Cyp3a16         Phase I (CYP450)                 5           0             1      -0.943855             0.800000
+Cyp3a11         Phase I (CYP450)                 7           0             0       0.410309             0.857143
+Cyp3a25         Phase I (CYP450)                 7           0             0       0.345824             0.714286
+Cyp3a41a        Phase I (CYP450)                 6           0             0       0.272002             0.666667
+Cyp2c40         Phase I (CYP450)                 7           0             0       0.244742             0.714286
+Cyp3a13         Phase I (CYP450)                 7           0             0       0.166502             0.571429

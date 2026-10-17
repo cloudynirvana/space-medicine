@@ -1,0 +1,9 @@
+mouse_gene,human_gene,chembl_target,drug,drug_chembl_id,max_phase,action,approved_use_note
+Tnfsf11,TNFSF11,CHEMBL2364162,DENOSUMAB,CHEMBL1237023,4,inhibitor,approved 2010 (osteoporosis)
+Sost,SOST,CHEMBL3580487,ROMOSOZUMAB,CHEMBL2107874,4,inhibitor,approved 2019 (osteoporosis)
+Sost,SOST,CHEMBL3580487,SETRUSUMAB,CHEMBL4297918,3,inhibitor,phase 3
+Mstn,MSTN,CHEMBL3407325,APITEGROMAB,CHEMBL4594326,3,inhibitor,phase 3 (spinal muscular atrophy)
+Mstn,MSTN,CHEMBL3407325,DOMAGROZUMAB,CHEMBL3544991,2,inhibitor,phase 2
+Ctsk,CTSK,CHEMBL268,ODANACATIB,CHEMBL481611,3,inhibitor,phase 3 (never approved)
+Mtor,MTOR,CHEMBL2842,SIROLIMUS,CHEMBL413,4,inhibitor,approved 1999 (transplant); mTOR has 26 ChEMBL mechanism records
+Gdf15,GDF15,CHEMBL3120039,,,,,no drug mechanisms recorded in ChEMBL

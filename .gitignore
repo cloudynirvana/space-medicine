@@ -1,0 +1,8 @@
+.env
+__pycache__/
+.pytest_cache/
+venv/
+data/
+# full per-gene tables are large and rebuilt by ./run_all.sh; summaries and charts are kept
+*/results/**/*_all_genes.csv
+*/results/**/meta_analysis_all_genes.csv
